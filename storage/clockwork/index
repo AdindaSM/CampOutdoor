@@ -93,3 +93,6 @@
 1658717411-8813-71841332,1658717411.7775,GET,/admin,"App\Http\Controllers\DashboardAdminController@admin",200,326.25794410706,request
 1658717422-6004-190597002,1658717422.4929,POST,/logout,"App\Http\Controllers\LoginController@logout",302,234.70902442932,request
 1658717422-8674-1998215930,1658717422.7388,GET,/,"App\Http\Controllers\BerandaController@index",200,309.82398986816,request
+1658717915-6193-1673629668,1658717915.4785,GET,/,"App\Http\Controllers\BerandaController@index",200,335.16216278076,request
+1658717917-4954-1243598889,1658717917.3446,GET,/categories,"App\Http\Controllers\CategoryController@index",200,288.01107406616,request
+1658717919-3468-1615773722,1658717919.2405,GET,/?category=kategori-Sepatu,"App\Http\Controllers\BerandaController@index",200,261.86418533325,request
