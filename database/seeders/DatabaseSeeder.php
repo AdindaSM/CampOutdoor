@@ -87,9 +87,9 @@ class DatabaseSeeder extends Seeder
                     'alamat' => '',
                 ],
                 [
-                    'nama_lengkap' => 'Theo',
-                    'username' => 'Theo',
-                    'email' => 'theo@gmail.com',
+                    'nama_lengkap' => 'Muhammad',
+                    'username' => 'Muhammad',
+                    'email' => 'muhammad@gmail.com',
                     'password' => Hash::make('12345678'),
                     'role_id' => 2,
                     'alamat' => 'Bekasi Timur',

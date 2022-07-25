@@ -5,6 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Cviebrock\EloquentSluggable\Sluggable;
+use Illuminate\Support\Facades\DB;
 
 class Beranda extends Model
 {
@@ -24,6 +25,10 @@ class Beranda extends Model
                     ->orWhere('body', 'like', '%' . $search . '%');
             });
         });
+        //dump($query);
+
+
+        $key = Beranda::select("*")->get();
 
         $query->when($filters['category'] ?? false, function ($query, $category) {
             return $query->whereHas('category', function ($query) use ($category) {
