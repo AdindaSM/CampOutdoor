@@ -87,3 +87,9 @@
 1658716994-4625-73892384,1658716994.357,GET,/about,Closure,200,226.30190849304,request
 1658716995-9926-654066928,1658716995.8679,GET,/categories,"App\Http\Controllers\CategoryController@index",200,268.98884773254,request
 1658716996-9436-352972043,1658716996.8393,GET,/?category=kategori-Sepatu,"App\Http\Controllers\BerandaController@index",200,252.02012062073,request
+1658717398-0365-1285714068,1658717397.8813,GET,/?category=kategori-Sepatu,"App\Http\Controllers\BerandaController@index",200,356.23979568481,request
+1658717401-1515-2095759210,1658717401.0143,GET,/login,"App\Http\Controllers\LoginController@index",200,353.08694839478,request
+1658717410-9728-151677249,1658717410.8513,POST,/login,"App\Http\Controllers\LoginController@authenticate",302,912.34016418457,request
+1658717411-8813-71841332,1658717411.7775,GET,/admin,"App\Http\Controllers\DashboardAdminController@admin",200,326.25794410706,request
+1658717422-6004-190597002,1658717422.4929,POST,/logout,"App\Http\Controllers\LoginController@logout",302,234.70902442932,request
+1658717422-8674-1998215930,1658717422.7388,GET,/,"App\Http\Controllers\BerandaController@index",200,309.82398986816,request
